@@ -1,0 +1,33 @@
+Variáveis e operadores aritméticos
+
+1 – Escreva um algoritmo para somar dois números e multiplicar o resultado pelo primeiro número.
+
+2 – Escreva um algoritmo que leia três números nas variáveis Val1, Val2 e Val3, calcule sua média na 
+variável média e exiba para o usuário o resultado.
+
+3 – Escreva um algoritmo que receba um valor, calcule e mostre para o usuário 15% deste valor.
+
+4 – Escreva um algoritmo que receba um valor, calcule e mostre para o usuário 5% e 50% deste valor.
+
+5 - Escreva um algoritmo que leia dois números, calcule o quadrado de cada um, some os quadrados 
+e mostre o resultado.
+
+6 - Crie um algoritmo para jogar par ou ímpar, na qual o jogador escolhe par ou ímpar e depois colocar 
+o valor desejado. O computador precisa selecionar o seu valor e verificar o resultado, além de mostrar o vencedor.
+
+
+Exercícios de operadores relacionais e lógicos
+
+1) Elabore um algoritmo que leia um número. Se positivo armazene-o em A, se for negativo, em B. 
+No final mostrar o resultado.
+
+3) Construa um um algoritmo para ler uma variável numérica N e imprimi-la somente se a mesma 
+for maior que 100, caso contrário imprimir com o valor zero.
+
+4) Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um algoritmo que 
+calcule seu peso ideal, utilizando as seguintes fórmulas:  
+Para homens: (72.7*h) - 58  Para mulheres: (62.1*h) - 44.7  (h = altura)
+
+5) Ler dois valores (não pode ser lidos valores iguais) e escreva o maior deles. 
+
+6) Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
