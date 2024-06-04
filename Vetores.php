@@ -30,6 +30,7 @@ $vetBibliotecas = [
 /* echo 'Nome = ' . $vetBibliotecas['nome'] . ' Idade = ' . $vetBibliotecas['idade']; */
 
 // Cadastro de Usuários
+// Vetor de Biblioteca
 $cadastroVetor = [
     "nome" => "Lucas",
     "senha" => "12345",
@@ -39,6 +40,9 @@ $cadastroVetor = [
 ];
 print_r($cadastroVetor);
 
+// Vetor de Lista (tradicional)
 $vetorCadastro = ["Lucas", 12345, "Rua Padre João", "Santa Teresa", "17-30"];
+print_r($vetorCadastro);
+array_push($vetorCadastro, 55);
 print_r($vetorCadastro);
 ?>
