@@ -1,0 +1,7 @@
+Lista de exercício de estruturas de repetição
+
+1 -  Crie um loop que imprima os números de 1 a 10.
+2 - Crie um loop que imprima os números pares de 1 a 10.
+3 - Crie um loop que imprima os números ímpares de 1 a 10.
+4 - Crie um loop que imprima os números de 1 a 100, pulando de 2 em 2.
+5 - Crie um loop que imprima os números de 100 a 1, pulando de 2 em 2.
