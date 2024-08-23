@@ -16,16 +16,16 @@
     </div>
     </nav >
  
-        <div class="container">
-            <h2 class="text-center"> Cadastro de Usuários </h2>
+        <div class="container text-center">
+            <h2 > Cadastro de Usuários </h2>
 
-                <form action="" method="post">
+                <form action="bd.php" method="post">
                     <div class="row">
                         <div class="col-md-6">
-                            <input class=" form-control" type="text" name="nome " id="nome" placeholder="Insira seu Nome">
+                            <input required class="form-control" type="text" name="nome" id="nome" placeholder="Insira seu Nome">
                         </div>
                         <div class="col-md-6">
-                            <input class=" form-control" type="text" name="email " id="email" placeholder="Insira seu Email">
+                            <input class=" form-control" type="text" name="email" id="email" placeholder="Insira seu Email">
                         </div>
                     </div>
                     <div class="row">
@@ -83,7 +83,7 @@
                         </div>
                      <div class="row">
                         <div class="col-md-12">
-                            <input class="form-control mt-2" type="submit" value="Enviar">
+                            <input class="btn btn-danger form-control mt-2" type="submit" value="Enviar">
                         </div>
                      </div>
                 </form>
