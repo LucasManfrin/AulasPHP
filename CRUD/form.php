@@ -75,7 +75,7 @@
                             </select>
                         </div>
                         <div class="col-md-3">
-                            <input class="form-control mt-2" type="number" name="rg" id="cpf" placeholder="Digite seu Cpf">
+                            <input class="form-control mt-2" type="number" name="cpf" id="cpf" placeholder="Digite seu Cpf">
                         </div>
                         <div class="col-md-3">
                             <input class="form-control mt-2" type="number" name="rg" id="rg" placeholder="Digite seu Rg">
