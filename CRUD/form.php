@@ -7,14 +7,14 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body class="bg-light">
-    <nav class="navbar bg-body-tertiary">
+<body>
+    <nav class="navbar">
     <div class="container-fluid">
          <a class="navbar-brand" href="#">
             <img src="./Imagens/cadastro.png" alt="Logo" width="39" height="39" class="d-inline-block align-text-top">
         </a>
     </div>
-    </nav >
+    </nav>
  
         <div class="container text-center">
             <h2 > Cadastro de Usuários </h2>
@@ -83,7 +83,7 @@
                         </div>
                      <div class="row">
                         <div class="col-md-12">
-                            <input class="btn btn-danger form-control mt-2" type="submit" value="Enviar">
+                            <input style="width: 50%;" class="btn btn-danger border rounded-4 form-control mt-2" type="submit" value="Enviar">
                         </div>
                      </div>
                 </form>
