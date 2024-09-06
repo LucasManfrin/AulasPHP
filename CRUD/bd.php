@@ -9,7 +9,7 @@ echo "<br>" . $_POST['nome'];
 $pdo = new PDO('mysql:host=localhost;dbname=bdaula', 'root', '');
 
 /* PREPARAÇÃO PARA REALIZAR UM COMANDO SQL NO BANCO DE DADOS */
-$sql = $pdo->prepare("INSERT INTO `cadastro` VALUES (null,?,?,?,?,?,?,?,?,?,?)");
+$sql = $pdo->prepare("INSERT INTO `cadastro` VALUES (null,?,?,?,?,?,?,?,?,?,?,?)");
 
 /* ENVIO DOS DADOS E GRAVAÇÃO NO BANCO DE DADOS */
 $sql ->execute(array($_POST['nome'], 
@@ -21,6 +21,7 @@ $sql ->execute(array($_POST['nome'],
                      $_POST['estado'],
                      $_POST['cpf'],
                      $_POST['rg'],
+                     sha1($_POST['senha']),
                      date("Y-m-d H:i:s")
 ));
 ?>

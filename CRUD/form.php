@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,8 +21,11 @@
 
                 <form action="bd.php" method="post">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <input required class="form-control" type="text" name="nome" id="nome" placeholder="Insira seu Nome">
+                        </div>
+                        <div class="col-md-3">
+                            <input required class="form-control" type="password" name="senha" id="senha" placeholder="Digite sua senha">
                         </div>
                         <div class="col-md-6">
                             <input class=" form-control" type="text" name="email" id="email" placeholder="Insira seu Email">
