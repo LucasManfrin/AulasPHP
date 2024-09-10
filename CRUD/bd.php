@@ -21,7 +21,7 @@ $sql ->execute(array($_POST['nome'],
                      $_POST['estado'],
                      $_POST['cpf'],
                      $_POST['rg'],
-                     sha1($_POST['senha']),
+                     $_POST['senha'],
                      date("Y-m-d H:i:s")
 ));
 ?>
