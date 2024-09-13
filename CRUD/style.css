@@ -50,3 +50,11 @@ body {
     background-color: #0056b3;
     cursor: pointer;
 }
+a {
+    text-decoration: none;
+    color: #007bff; /* Cor padrão do link */
+}
+
+a:hover {
+    color: #0056b3; /* Cor do link ao passar o mouse */
+}

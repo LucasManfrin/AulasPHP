@@ -24,4 +24,7 @@ $sql ->execute(array($_POST['nome'],
                      $_POST['senha'],
                      date("Y-m-d H:i:s")
 ));
+
+echo "<meta http-equiv='refresh' content='0; url=login.php'>";
 ?>
+
