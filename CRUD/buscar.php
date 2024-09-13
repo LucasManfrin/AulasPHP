@@ -19,7 +19,7 @@ if (!empty($dados)) {
     session_start();
     
     $_SESSION['nome'] = $dados[0]['NOME'];
-    echo "<meta http-equiv='refresh' content='0; url=home.php>";
+    echo "<meta http-equiv='refresh' content='0; url=home.php'>";
 }
 
 

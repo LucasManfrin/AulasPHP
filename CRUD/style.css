@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,9 +52,9 @@ body {
 }
 a {
     text-decoration: none;
-    color: #007bff; /* Cor padrão do link */
+    color: #007bff; 
 }
 
 a:hover {
-    color: #0056b3; /* Cor do link ao passar o mouse */
+    color: #0056b3; 
 }
