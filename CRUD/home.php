@@ -1,3 +1,12 @@
+<?php 
+    session_start();
+    if (empty($_SESSION['nome'])) {
+    echo "<script>window.alert('Usuário não encontrado. Faça o login novamente!')</script>";
+    echo "<meta http-equiv='refresh' content='0; url=login.php'>";
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +17,6 @@
 </head>
 <body>
     <h1>Entrou na página home</h1>
+    <a href="sair.php">Sair</a>
 </body>
 </html>

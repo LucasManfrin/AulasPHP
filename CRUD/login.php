@@ -22,6 +22,14 @@
             <button class="btn btn-primary w-100" type="submit">Entrar</button>
             <a href="form.php">Cadastrar</a>
         </form>
+        <?php 
+            session_start();
+
+                if (!empty($_SESSION['erro'])) {
+                echo $_SESSION['erro'];
+                $_SESSION['erro'] = '';
+            }
+        ?>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

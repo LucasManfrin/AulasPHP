@@ -20,6 +20,12 @@ if (!empty($dados)) {
     
     $_SESSION['nome'] = $dados[0]['NOME'];
     echo "<meta http-equiv='refresh' content='0; url=home.php'>";
+    
+} else {
+    session_start();
+    $_SESSION ['erro'] = "<div class='alert alert-danger' role='alert'> Usuario ou senha não correspondem </div>";
+    echo "<meta http-equiv='refresh' content='0; url=login.php'>";
+
 }
 
 
