@@ -23,13 +23,15 @@
     <h1>Entrou na página home</h1>
     <a href="sair.php">Sair</a>
 
+    <div class="container text-center">
     <?php 
     $dados = BuscarUsuarios();
-    echo "<pre>";
-        print_r($dados);
-    echo "</pre>";
+    if (!empty($_SESSION['erro'])) {
+        echo $_SESSION['erro'];
+        $_SESSION['erro'] = '';
+    }
     ?>
-<div class="container text-center">
+
     <div class="row border border-1">
         <div class="col-md-3">
             ID
@@ -60,7 +62,7 @@
             echo $dados[$key]['EMAIL'];
         echo "</div>";
         echo "<div class='col-md-3'>";
-            echo "<a class='btn btn-primary' href='editar.php'>Editar</a>";
+            echo "<a class='btn btn-primary' href='editar.php?id=". $dados[$key]['ID'] ."'>Editar</a>";
             echo "<a class='btn btn-danger' href='excluir.php?id=". $dados[$key]['ID'] ."'>Excluir</a>";
         echo "</div>";
     echo "</div>";
